@@ -1,0 +1,83 @@
+body {
+  background-color: #424242 !important;
+  color: #fff;
+}
+.exchange-group {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 108px 145px 145px 145px;
+  grid-gap: 10px;
+  background: #999;
+  border-radius: 5px;
+  width: 560px;
+  height: 50px;
+}
+.exchange-content-title {
+  font-family: Skranji;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  color: #923935;
+}
+.resource-balance-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Skranji;
+  font-style: normal;
+  font-weight: 700;
+}
+.resource-balance-wrapper .resource-balance-amount {
+  font-size: 20px;
+  line-height: 27px;
+  color: #fff;
+  text-shadow: 0 4px 4px rgba(0,0,0,.25);
+  text-shadow: -3px 3px 2px #923935;
+}
+.resource-balance-wrapper img {
+  height: 30px;
+  -webkit-filter: drop-shadow(0 4px 4px rgba(0,0,0,.25));
+  filter: drop-shadow(0 4px 4px rgba(0,0,0,.25));
+}
+.name-row {
+  margin: 10px 0;
+}
+.badge {
+  display: inline-block;
+  padding: .25em .4em;
+  font-size: 75%;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: .25rem;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  font-size: large;
+  color: #fff !important;
+  border-radius: .125rem;
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+  background: linear-gradient(40deg, #5b81a5, #19e4ff) !important;
+}
+.energy {
+  background: rgb(206, 183, 23);
+  display: inline-block;
+  padding: 4px;
+  border-radius: 4px;
+}
+#loginresponse {
+  margin: 10px 0;
+  color: #f57c00;
+}
+.version {
+  background: orange;
+  display: inline-block;
+  padding: 4px;
+  border-radius: 4px;
+}
+.inline {
+  display: inline-block;
+}
